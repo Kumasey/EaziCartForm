@@ -93,15 +93,15 @@ h3{
 
 .social-container{
     display: flex;
-    padding-right: 35%;
-    padding-left: 35%;
+    padding-right: 20%;
+    padding-left: 20%;
     flex-wrap: wrap;    
 }
 
 .social-container1{
     display: flex;
-    padding-right: 35%;
-    padding-left: 35%;
+    padding-right: 20%;
+    padding-left: 20%;
     flex-wrap: wrap; 
     margin-bottom: 20px;   
 }
@@ -109,10 +109,10 @@ h3{
 .social{
     border: solid;
     margin: 2%;
-    width: 70px;
+    width: 150px;
     border-width: 1px;
     height: 40px;
-    padding-top: 7px;
+    padding-top: 2px;
     padding-left: 4px;
     border-color: rgb(224, 222, 222);
 }
@@ -252,6 +252,5 @@ input{
   }
 
   #pass{
-      margin-left: 70px;
       text-decoration: none;
   }
