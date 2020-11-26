@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EaziCart | Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div class="header-logo">
+            <img src="./images/Eazicart logo 1.png" width="70" alt="Eazi Cart Logo">
+        </div>
+        <div class="container-register">
+            <div class="info-center">
+                <div id="already"><a style="text-decoration: none" href="./login.html"><h2>Already Registered?</h2></a></div>
+                <div id="new"><h2>New To EaziCart?</h2></div>
+            </div>
+            <h3>SIGN UP WITH...</h3>
+            <div class="social-container">
+                <div class="social"><a href="https://www.google.com"><img src="./images/google.png" alt="google" width="90%"></a></div>
+                <div class="social"><a href="https://www.google.com"><img src="./images/Untitled1.png" alt="google" width="100%"></a></div>
+            </div>
+            <div class="social-container">
+                <div class="social"><a href="https://www.google.com"><img src="./images/facebook.png" alt="google" width="95%"></a></div>
+                <div class="social"><a href="https://www.google.com"><img src="./images/twitter.png" alt="google" width="100%"></a></div>
+            </div>
+            <p><b>Signing up with social is super quick. No extra passwords to remember - no brain fail. Don't worry, 
+                we'd never share any of your data or post anything on your behalf</b></p>
+                <div class="or">OR</div>
+                <hr>
+                <h3>SIGN UP USING YOUR EMAIL...</h3>
+                <form class="form">
+                    <label for="">Email Address:</label><br>
+                    <input type="text"><br>
+                    <span class="spans">We'll send your other confirmation here</span><br>
+                    <label for="">First Name:</label><br>
+                    <input type="text"><br>
+                    <label for="">Last Name:</label><br>
+                    <input type="text"><br>
+                    <label for="">Password:</label><br>
+                    <span class="eye" onclick="myFunction()">
+                        <i id="hide1" class="fa fa-eye"></i>
+                        <i id="hide2" class="fa fa-eye-slash"></i>
+                    </span>
+                    <input type="password" id="myInput"><br>
+                    <label for="" class="email">Must be 10 or more characters</label><br>
+                    <label for="date">Date of Birth:</label><br>
+                    <input type="date"><br>
+                    <label class="email" for="date">You need to be 16 or over to use EaziCart</label>
+                    <div class="preference">
+                        <b>Contact Prefernces</b>
+                    </div>
+                    <span class="email">Tell us which emails you'd like</span>
+                    <button class="clear">clear</button>
+                    <button class="all">all</button>
+                    <div class="options">
+                        <div>Discounts and sales</div>
+                        <input type="checkbox">
+                        <div>New stuff</div>
+                        <input type="checkbox">
+                        <div>Your exclusives</div>
+                        <input type="checkbox">
+                        <div>EaziCart partners</div>
+                        <input type="checkbox">
+                        <a href="#">Tell me more about these...</a>
+                            <span class="terms">
+                                By creating your account, you agree to our <a href="#">Terms and conditions</a> & <a href="#">Privacy Policy</a>
+                            </span>
+                            <button class="signup">CREATE ACCOUNT</button>
+                    </div>
+                </form>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
