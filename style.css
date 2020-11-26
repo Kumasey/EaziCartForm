@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Encode Sans;
+    font-family: 'Encode Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -11,6 +11,7 @@ body {
     letter-spacing: .4px;
     background-color: #eee;
     margin: 30px;
+    font: bolder;
 }
 
 #container {
@@ -119,7 +120,7 @@ h3{
 p{
     padding: 40px;
     text-align: center;
-    font-size: medium;
+    font-size: small;
 }
 
 .or{
@@ -222,7 +223,7 @@ input{
 .signup1{
     margin-top: 20px;
     margin-bottom: 10px;
-    width:40%;
+    width:50%;
     padding:10px;
     border:none;
     outline:none;
@@ -232,7 +233,6 @@ input{
     text-transform:uppercase;
     cursor:pointer;
     border-radius:5px;
-    margin-left: 20px;
 }
 
 #hide1{
