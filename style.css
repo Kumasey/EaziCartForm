@@ -18,8 +18,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    min-width: 650px;
-    max-width: 50px;
+    min-width: 58%;
+    max-width: 80px;
+    background-color: white;
 }
 
 .header-logo {
@@ -40,9 +41,10 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-h2 {
+h2{
         display: block;
         font-size: 1em;
         margin-block-start: 0.83em;
@@ -72,15 +74,6 @@ h2 {
     padding-right: 5%;
     padding-left: 5%;
     border-bottom: solid;
-    border-width: 1px;
-}
-
-#already1{
-    padding-right: 5%;
-    padding-left: 5%;
-    border-top: solid;
-    border-left: solid;
-    border-right: solid;
     border-width: 1px;
 }
 
@@ -125,79 +118,74 @@ p{
     font-size: small;
 }
 
-.or{
-    text-align: center;
+.or1{
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 40px;
+    margin-left: 350px;
+    background-color: white;
 }
 
-.or1{
-    text-align: center;
-    margin-top: 30px;
+.or2{
+    position: absolute;
+    padding-left: 10px;
+    margin-top: -5px;
+    width: 40px;
+    margin-left: 350px;
+    background-color: white;
 }
 
 hr{
     margin-left: 40px;
+    margin-bottom: 60px;
     margin-right: 40px;
+    margin-top: 80px;
+}
+
+#hr1{
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .form{
-    margin-left: 40px;
+    margin-left: 60px;
+    width: 80%;
 }
 
 .form1{
     margin-left: 200px;
+    margin-bottom: 28px;
 }
 
 input{
     border-radius: 4px;
-    width: 50%;
+    width: 60%;
     height: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
     border-width: 1px;
+    padding: 20px;
+    outline: none;
 }
 
-.spans{
-    margin-bottom: 20px;
-    font-size: small;
-    color: rgb(204, 201, 201);
-}
-
-.clear{
-    float: right;
-    margin-right: 90px;
-    border-color: #bbb8b8;
-    border-width: 1px;
-    border-radius: 4px;
+.firstName{
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: -3%;
 }
 
 .email{
     color: rgb(129, 126, 126);
+    font-size: small;
 }
 
-.all{
-    float: right;
-    margin-right: 30px;
-    display: none;
-}
-
-.options > input{
-    width: 30px;
-    margin-right: 40px;
-}
-
-.options > div{
-    width: 200px;
-    margin-top: 20px;
-}
-
-.options{
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.terms{
+#terms{
     margin-top: 40px;
+    font-size: 15px;
+    color: black;
 }
 
 .signup{
@@ -207,7 +195,7 @@ input{
     padding:10px;
     border:none;
     outline:none;
-    background:orangered;
+    background: #FF8200;
     color:#f5f5f5;
     font-size:13px;
     text-transform:uppercase;
@@ -218,11 +206,11 @@ input{
 .signup1{
     margin-top: 20px;
     margin-bottom: 10px;
-    width:50%;
+    width:60%;
     padding:10px;
     border:none;
     outline:none;
-    background:orangered;
+    background: #FF8200;
     color:#f5f5f5;
     font-size:13px;
     text-transform:uppercase;
@@ -236,17 +224,25 @@ input{
 
 .eye {
     position: absolute;
-    margin-left: 280px;
+    margin-left: 330px;
     margin-top: 20px;
   }
 
   .eye1 {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 295px;
     margin-top: 20px;
   }
 
   #pass{
       text-decoration: none;
-      margin-left: 50px;
+      margin-left: 0px;
+      color: black;
+  }
+
+  .fa-eye{
+      color: gray;
+  }
+  .fa-eye-slash{
+      color: gray;
   }
