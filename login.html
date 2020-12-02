@@ -19,10 +19,10 @@
                 <div id="new"><h2>Already Registered?</h2></a></div>
             </div>
             <h3>LOG IN WITH EMAIL</h3>
-            <form class="form1">
-                <label for="">Email Address:</label><br>
-                <input type="text"><br>
-                <label for="">Password:</label><br>
+            <form class="form1" method="POST" action="/login/POST">
+                <label for="email">Email Address:</label><br>
+                <input type="text" input="required"><br>
+                <label for="password">Password:</label><br>
                 <span class="eye1" onclick="myFunction()">
                     <i id="hide1" class="fas fa-eye"></i>
                     <i id="hide2" class="fa fa-eye-slash"></i>
