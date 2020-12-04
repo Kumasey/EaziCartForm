@@ -70,11 +70,19 @@ h2{
     border-width: 1px;
 }
 
+#new1 > a{
+    color: black;
+}
+
 #already{
     padding-right: 5%;
     padding-left: 5%;
     border-bottom: solid;
     border-width: 1px;
+}
+
+#already > a{
+    color: black;
 }
 
 h3{
